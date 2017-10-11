@@ -3,9 +3,9 @@ const projectRouter = new Router();
 const db = require('../db');
 
 const projectQuery = 
-` SELECT * FROM project p
-  INNER JOIN project_technology pt
-  ON p.project_id = pt.project_id;`;
+`SELECT * FROM project p
+ INNER JOIN project_technology pt
+ ON p.project_id = pt.project_id;`;
 
 projectRouter.get('/project', async (request, response) => {
   const { rows } = await db.query(projectQuery);

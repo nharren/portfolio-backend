@@ -5,6 +5,8 @@ require('dotenv').config();
 const cors = require('cors');
 const express = require('express');
 const mountRouters = require('./routers');
+const db = require('./db');
+db.ensureTables();
 
 const PORT = process.env.PORT || 3000;
 const app = express();

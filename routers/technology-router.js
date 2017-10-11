@@ -4,8 +4,8 @@ const db = require('../db');
 
 const technologiesQuery = 'SELECT * FROM technology;';
 const technologyQuery = 
-`SELECT * FROM technology
- WHERE technology_id = $1;`
+ `SELECT * FROM technology
+  WHERE technology_id = $1;`
 
 technologyRouter.get('/technology', async (request, response) => {
   const { rows } = await db.query(technologiesQuery);

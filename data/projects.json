@@ -1,0 +1,38 @@
+[
+  {
+    "github_name": "MusicTimeline",
+    "title": "Music Timeline",
+    "image": "./images/music-timeline.jpg",
+    "technologies": ["C-Sharp", "WPF", "ASP.NET", "ASP.NET Web Api 2", "SQL", "SQL Server", "Entity Framework"]
+  },
+  {
+    "github_name": "MathGrapher",
+    "title": "Math Grapher",
+    "image": "./images/math-grapher.gif",
+    "technologies": ["C-Sharp", "WPF"]
+  },
+  {
+    "github_name": "nharren.github.io",
+    "title": "Music Trivia",
+    "image": "./images/music-trivia.jpg",
+    "technologies": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "github_name": "abellio-strings",
+    "title": "Abellio Strings",
+    "image": "./images/abellio-strings.jpg",
+    "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "Handlebars.js"]
+  },
+  {
+    "github_name": "Harrenstein",
+    "title": "Harrenstein",
+    "image": "./images/harrenstein.jpg",
+    "technologies": ["HTML", "CSS", "JavaScript", "Audio.js"]
+  },
+  {
+    "github_name": "portfolio",
+    "title": "Portfolio",
+    "image": "",
+    "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "Handlebars.js", "Node.js"]
+  }
+]
