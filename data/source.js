@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const diagnostics = require('../diagnostics');
+const diagnostics = require('../modules/diagnostics');
 const request = require('superagent');
 
 function loadLocalData() {

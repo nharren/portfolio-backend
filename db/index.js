@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-const diagnostics = require('../diagnostics');
+const diagnostics = require('../modules/diagnostics');
 const queries = require('./queries');
 const pool = new Pool();
 
